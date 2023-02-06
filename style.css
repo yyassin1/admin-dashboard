@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-image: url("images/backg.jpg");
+    background-size: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.dashboard{
+    background-color: rgb(5, 103, 103);
+    display: grid;
+    grid-column: 1/2;
+    padding:15px;
+
+}
+.dashHeader{
+    display:flex;
+    align-items: center;
+    margin-top: -5px;
+}
+.logoImage{
+    width:40px;
+    height:40px
+}
+.home{
+    display: flex;
+    align-items: center;
+    margin-top:40px;
+    margin-left:10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+}
+.messages{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+}
+.history{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+}
+.tasks{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+}
+.community{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+}
+.setting{
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+    margin-left:10px;
+}
+.support{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+}
+.privacy{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+}
+.body{
+    display: grid;
+    background-color: antiquewhite;
+    grid-column: 2/3;
+    padding:25px;
+}
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.leftTopHeader{
+    display: flex;
+}
+.rightTopHeader{
+    display: flex;
+}
+.fa-search{
+    margin-top:10px;
+}
+.headerSearch{
+    border-radius: 25px;
+    border:1px;
+    width:450px;
+}
+.fa-bell{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.profilePicture{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.profileName{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.bottomHeader{
+    display: flex;
+    margin-top: 20px;
+
+}
+.profilePicture2{
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.greeting{
+    margin-left: 20px;
+    line-height: 12px;
+    margin-top: 15px;
+}
+.rightBottom{
+    display: flex;
+    margin-left:auto;
+    align-items:center;
+    justify-content: flex-end;
+    gap:15px;
+}
+.new{
+    background-color: rgb(33, 121, 222);
+    padding:5px;
+    width:70px;
+    border-radius: 25px;
+    text-align: center;
+    color:white;
+}
+.upload{
+    background-color: rgb(33, 121, 222);
+    padding:5px;
+    width:70px;
+    border-radius: 25px;
+    text-align: center;
+    color:white;
+}
+.share{
+    background-color: rgb(33, 121, 222);
+    padding:5px;
+    width:70px;
+    border-radius: 25px;
+    text-align: center;
+    color:white;
+    margin-right: 15px;
+}
+.bottomBody{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.projects{
+    grid-column: 1/2;
+}
+.annAndTren{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:15px;
+}
+.project{
+    background-color: rgb(244, 251, 251);
+    padding:25px;
+    width:200px;
+    border-left:5px solid orange;
+    border-radius: 5px;
+    display: grid;
+}
+.icons{
+    text-align: right;
+}
+.fa-eye{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.announcement{
+    background-color: rgb(244, 251, 251);
+    padding:25px;
+}
+.trending{
+    background-color: rgb(244, 251, 251);
+    padding:15px;
+}
+.mameProfile{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.mame{
+    display: flex;
+    margin-left: -15px;
+}
+.mameName{
+    margin-left: 15px;
+}
+.muleProfile{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.mule{
+    display: flex;
+    margin-left: -15px;
+}
+.muleName{
+    margin-left: 15px;
+}
+.temeProfile{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.teme{
+    display: flex;
+    margin-left: -15px;
+}
+.temeName{
+    margin-left: 15px;
+}
