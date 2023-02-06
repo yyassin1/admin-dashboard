@@ -29,55 +29,48 @@ body{
 .home{
     display: flex;
     align-items: center;
-    margin-top:40px;
+    margin-top:20px;
     margin-left:10px;
 }
 .profile{
     display: flex;
     align-items: center;
-    margin-top:20px;
     margin-left:10px;
 }
 .messages{
     display: flex;
     align-items: center;
-    margin-top:20px;
     margin-left:10px;
 }
 .history{
     display: flex;
     align-items: center;
-    margin-top:20px;
     margin-left:10px;
 }
 .tasks{
     display: flex;
     align-items: center;
-    margin-top:20px;
     margin-left:10px;
 }
 .community{
     display: flex;
     align-items: center;
-    margin-top:20px;
     margin-left:10px;
 }
 .setting{
     display: flex;
     align-items: center;
-    margin-top:50px;
+    margin-top:30px;
     margin-left:10px;
 }
 .support{
     display: flex;
     align-items: center;
-    margin-top:20px;
     margin-left:10px;
 }
 .privacy{
     display: flex;
     align-items: center;
-    margin-top:20px;
     margin-left:10px;
 }
 .body{
